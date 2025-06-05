@@ -48,15 +48,7 @@
 		<members>*</members>
 		<name>CustomMetadata</name>
 	</types>
-	<types>
-	    <members>Account</members>
-	    <members>Opportunity</members>        
-        <members>OpportunityLineItem</members>                
-        <members>WorkOrder</members>                
-        <members>WorkOrderLineItem</members>                
-        <members>Order</members>                        
-        <members>OrderItem</members>                             
-        <members>ServiceAppointment</members>                     
+	<types>                 
 		<members>*</members>
 		<name>CustomObject</name>
 	</types> 
@@ -149,15 +141,7 @@
 		<name>Workflow</name>
 	</types>
 	<types>
-		<members>Created_by_Ella/Appointment_Cancellation</members>
-		<members>Created_by_Ella/Change_of_Appointment</members>
-		<members>Created_by_Ella/Email_Acknowledgement</members>
-		<members>Created_by_Ella/Inspection_Appointment_Confirmation</members>
-		<members>Created_by_Ella/Sales_Acknowledgement</members>
-		<members>Monthly_Audit_Notifications/Monthly_Audit_Creation_Template</members>
-		<members>Monthly_Audit_Notifications/Monthly_Audit_Reminder_Template</members>
-		<members>Service_Appointment_Email_Templates/Service_Appointment_Customer_Notification</members>
-		<members>Service_Appointment_Email_Templates/Service_Appointment_Dispatch_Notification</members>
+		<members>*</members>
 		<name>EmailTemplate</name>
 	</types>	
 	<version>56.0</version>
