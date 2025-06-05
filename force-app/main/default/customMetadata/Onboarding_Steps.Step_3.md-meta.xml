@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Step 3</label>
+    <protected>false</protected>
+    <values>
+        <field>Assigned_To__c</field>
+        <value xsi:type="xsd:string">Opportunity Owner</value>
+    </values>
+    <values>
+        <field>Assigned_to_UserId__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Sales to CS/Operations handoff with relevant deal notes.</value>
+    </values>
+    <values>
+        <field>Email_Notification__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Onboarding_Status__c</field>
+        <value xsi:type="xsd:string">Preparing</value>
+    </values>
+    <values>
+        <field>Sort_Order__c</field>
+        <value xsi:type="xsd:double">3.0</value>
+    </values>
+    <values>
+        <field>Step_Name__c</field>
+        <value xsi:type="xsd:string">Internal Handoff Completed</value>
+    </values>
+</CustomMetadata>

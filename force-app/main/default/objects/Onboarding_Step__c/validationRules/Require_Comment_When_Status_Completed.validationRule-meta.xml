@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Comment_When_Status_Completed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(ISPICKVAL(Onboarding_Status__c , &quot;Completed&quot;),
+ ISCHANGED(Onboarding_Status__c),
+ ISBLANK(Comment__c)
+)</errorConditionFormula>
+    <errorMessage>A Comment is required before the Onboarding Status can be marked as Completed.</errorMessage>
+</ValidationRule>
